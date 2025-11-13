@@ -272,7 +272,7 @@ function Hero() {
                   onClick={() => handleAnswerSelect(option)}
                   className={`w-full py-3 px-6 rounded-full border-2 transition-all duration-300 cursor-pointer ${
                     userAnswers[currentQuestion.id] === option
-                      ? "bg-white text-black border-white scale-105"
+                      ? "bg-white/10 text-white border-white/20 scale-105"
                       : "bg-transparent text-white border-white hover:bg-white/10"
                   }`}
                 >
